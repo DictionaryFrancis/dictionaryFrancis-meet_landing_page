@@ -50,6 +50,23 @@ header button span{
     color: var(--cyan-300);
 }
 
+header button:first-child {
+    transition: all 0.3s ease-in-out; 
+}
+
+
+header button:first-child:hover {
+    background: #71C0D4;
+    transition: 0.3s ease-in-out;
+}
+
+
 header button:last-child {
     background-color: var(--purple-600);
+    transition: all 0.3s ease-in-out; 
+}
+
+header button:last-child:hover {
+    background: #B18BDD;
+    transition: 0.3s ease-in-out;
 }
